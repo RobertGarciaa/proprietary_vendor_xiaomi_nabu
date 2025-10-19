@@ -13,6 +13,49 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.xiaomi.hardware.displayfeature@1.0-system",
+    stem: "vendor.xiaomi.hardware.displayfeature@1.0",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/system/lib/vendor.xiaomi.hardware.displayfeature@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
     name: "audio.primary.nabu",
     owner: "xiaomi",
     strip: {

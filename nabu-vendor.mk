@@ -169,6 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nabu/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.displayfeature@1.0-system \
     audio.primary.nabu \
     vendor.qti.hardware.audiohalext@1.0-impl \
     liba2dpoffload_nabu \
