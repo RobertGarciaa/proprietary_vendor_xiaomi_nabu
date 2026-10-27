@@ -338,7 +338,6 @@ PRODUCT_PACKAGES += \
     sensors.touch \
     vendor.qti.hardware.sensorscalibrate@1.0 \
     vendor_lib_rfsa_adsp_capi_v2_cirrus_sp_so \
-    vendor_lib_rfsa_adsp_capi_v2_dap_cpdp_so \
     vendor_lib_rfsa_adsp_libSuperSensor_skel_so \
     vendor_lib_rfsa_adsp_libVC1Dec_so \
     vendor_lib_rfsa_adsp_libVC1DecDsp_skel_so \

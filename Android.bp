@@ -4894,15 +4894,6 @@ prebuilt_rfsa {
 }
 
 prebuilt_rfsa {
-    name: "vendor_lib_rfsa_adsp_capi_v2_dap_cpdp_so",
-    filename: "capi_v2_dap_cpdp.so",
-    owner: "xiaomi",
-    src: "proprietary/vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so",
-    relative_install_path: "adsp",
-    soc_specific: true,
-}
-
-prebuilt_rfsa {
     name: "vendor_lib_rfsa_adsp_libSuperSensor_skel_so",
     filename: "libSuperSensor_skel.so",
     owner: "xiaomi",
